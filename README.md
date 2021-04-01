@@ -11,6 +11,15 @@ Learning React and ES6 by building a Movie Discovery App.
 - [ ] Detail
 
 
+## API Verbs
+
+- [ ] Now Playing (Movie)
+- [ ] Top Rated (TV, Movie)
+- [ ] Popular (Tv, Movie)
+- [ ] Upcoming (Movie)
+- [ ] Airing Today (TV)
+
+
 ### Screens Explanation
 
 - _Home_: 영화들이 보여짐
