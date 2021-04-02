@@ -8,7 +8,7 @@ export default class homeContainer extends React.Component {
     upComing: null,
     popular: null,
     error: null,
-    loadnig: true
+    loading: true
   };
 
   render() {
