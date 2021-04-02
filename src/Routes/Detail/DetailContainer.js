@@ -9,9 +9,20 @@ export default class detail extends React.Component {
     loading: true
   };
 
+  async componentDidMount() {
+    const {
+      match: { params: { id } },
+      history: { push }
+    } = this.props;
+
+    const parsedId = parseInt(id);
+
+    if (isNaN(parsedId)) return push("/");
+  }
+
+
   render() {
     const { result, error, loading } = this.state;
-    console.log(this.state);
     return <DetailPresenter
       result={result}
       error={error}
