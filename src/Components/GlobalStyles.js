@@ -16,7 +16,7 @@ const globalStyles = createGlobalStyle`
     background-color: rgba(20,20,20,1);
     height: 1000vh;
     color: white;
-    padding-top: 50px;
+    padding-top: 80px;
   }
 `;
 
