@@ -1,3 +1,3 @@
-const tvPresenter = () => "TV!";
+const tv = () => "TV!";
 
-export default tvPresenter;
+export default tv;

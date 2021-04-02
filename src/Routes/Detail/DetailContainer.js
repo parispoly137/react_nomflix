@@ -1,5 +1,5 @@
 import React from "react";
-import Detail from "./Detail";
+import DetailPresenter from "./DetailPresenter";
 
 
 export default class detail extends React.Component {
@@ -11,12 +11,11 @@ export default class detail extends React.Component {
 
   render() {
     const { result, error, loading } = this.state;
-    return <Detail
+    console.log(this.state);
+    return <DetailPresenter
       result={result}
       error={error}
       loading={loading}
     />;
   }
-
 }
-
