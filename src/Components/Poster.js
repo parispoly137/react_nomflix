@@ -15,8 +15,8 @@ const Title = styled.span``;
 
 const Year = styled.span``;
 
-const Poster = ({ id, imageUrl, title, rating, year, isMove = false }) => (
-  <Link to={isMove ? `/movie/${id}` : `/show/${id}`}>
+const Poster = ({ id, imageUrl, title, rating, year, isMovie = false }) => (
+  <Link to={isMovie ? `/movie/${id}` : `/show/${id}`}>
     <Container>
       <ImageContainer>
         <Image bgUrl={imageUrl} />
