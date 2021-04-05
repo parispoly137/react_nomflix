@@ -32,7 +32,6 @@ export default class searchContainer extends React.Component {
         movieResults,
         tvResults
       });
-      console.log(this.state);
     } catch {
       this.setState({ error: "Can'f find results." });
     } finally {
